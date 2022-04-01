@@ -1,6 +1,157 @@
-<object width="100%" height="100%" type="application/pdf" data="cv.pdf?#view=FitH">
-    <p>PDF cannot be displayed. Access the PDF <a href="https://github.com/annshress/annshress.github.io">here</a></p>
-</object>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Anish Shrestha</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
 <body>
-    <a href='https://www.twine.fm/annshress'></a>
+    <div id="dhead" class="container">
+        <div class="row">
+            <div id="dpic">
+                <!-- <img src="assets/my_profile.jpg" class="ppic" /> -->
+                <img src="assets/hist_miami.png" class="ppic" />
+            </div>
+            <div id="ddesc">
+                <h1>Anish Shrestha</h1>
+                <h2>I like to solve problems with code. I have an appetite for feedback, sharing, growth, and continuous improvement.
+                    Outside my study and work, I like outdoor sports, trekking, and cycling.
+                </h2>
+                <div id="dico">
+                    <a href="https://github.com/annshress"><img src="assets/cgithub.svg" class="iico" /></a>
+                    <a href="https://www.linkedin.com/in/anishshress/"><img src="assets/clinkedin.svg"
+                            class="iico" /></a>
+                    <a href="https://medium.com/@anish.shrestha"><img src="assets/crss.svg" class="iico" /></a>
+                    <img src="assets/cemail.svg" style="cursor: pointer;" onclick="toggle_email()" class="iico"
+                        title="click to reveal" />
+                </div>
+                <div id="demail"></div>
+                Reach me out anywhere! I will respond.
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="history" class="container">
+        <div class="entry row">
+            <div class="timespan">
+                2021
+            </div>
+            <div class="ico">
+                <div class="entry-dot"></div>
+                <img src="assets/hist_miami.png" />
+            </div>
+            <div class="desc">
+                <div class="htxt">
+                    I am a graduate research assistant in Department of Computer Science at <a
+                        href="https://miamioh.edu/">Miami University</a>. I am currently working in <a
+                        href="https://www.dachb.com/">DACHB</a> lab with <a
+                        href="https://miamioh.edu/cec/academics/departments/cse/about/faculty-and-staff/giabbanelli-philippe/">Dr.
+                        Giabbanelli</a>. We emphasize on using emerging technologies to solve lackings in participatory
+                    modeling.
+                    <br>
+                    I am also currently enrolled in Master's degree in Computer Science. I intend to graduate at the end
+                    of Spring 2023.
+                </div>
+            </div>
+        </div>
+
+        <div class="entry row">
+            <div class="timespan">
+                2020 - 2021
+            </div>
+            <div class="ico">
+                <div class="entry-dot"></div>
+                <img src="assets/hist_toggle.png" />
+            </div>
+            <div class="desc">
+                <div class="htxt">
+                    I was a software developer at <a href="https://togglecorp.com/">Togglecorp</a>. Togglecorp is a
+                    private company aiming for humanitarion aid through data.
+                    I worked on an administrative web application for <a
+                        href="https://www.internal-displacement.org/">Internal Displacement Monitoring Centre (IDMC)</a>
+                    to monitor displacements across the globe.
+                </div>
+            </div>
+        </div>
+
+        <div class="entry row">
+            <div class="timespan">
+                2018 - 2019
+            </div>
+            <div class="ico">
+                <div class="entry-dot"></div>
+                <img src="assets/hist_unified.jpg" />
+            </div>
+            <div class="desc">
+                <div class="htxt">
+                    I was a full-stack developer at WhyUnified.
+                </div>
+            </div>
+        </div>
+
+        <div class="entry row">
+            <div class="timespan">
+                2016 - 2019
+            </div>
+            <div class="ico">
+                <div class="entry-dot"></div>
+                <img src="assets/hist_infinia.jpg" />
+            </div>
+            <div class="desc">
+                <div class="htxt">
+                    I was a software developer at Infinia Hub.
+                    <br>
+                    Here is where I started coding as a professional. I came across the most amazing people in the industry while I was working there.
+                    Therefore this workplace has some of the fondest memories.
+                </div>
+            </div>
+        </div>
+
+        <div class="entry row">
+            <div class="timespan">
+                2012 - 2016
+            </div>
+            <div class="ico">
+                <div class="entry-dot"></div>
+                <img src="assets/hist_tu.jpg" />
+            </div>
+            <div class="desc">
+                <div class="htxt">
+                    Bachelor in Computer Engineering at <a href="https://ioe.edu.np/">Tribhuvan University</a>. This is
+                    where I first got exposed to nits and bits of computer science.
+                    I, along with few of my classmates, created a machine learning application for recognizing facial
+                    expressions. We were advised by <a
+                        href="https://scholar.google.com/citations?hl=en&user=S1dL69sAAAAJ">Dr. Joshi</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: #ddd;" class="container">
+        <div class="ctitle">Research</div>
+        <div class="row">
+            <div class="desc">
+                ... I like googling stuffs.
+            </div>
+        </div>
+    </div>
+
 </body>
+
+<script type="text/javascript">
+    var email_shown = false;
+    function toggle_email() {
+        let demail = document.getElementById('demail');
+        demail.innerHTML = 'ann'+ '.' + 'shress' + '_at_' + 'gmail.com';
+        demail.style.opacity = email_shown ? 0 : 1;
+        email_shown = !email_shown;
+    }
+</script>
+
+</html>
