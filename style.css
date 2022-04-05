@@ -133,6 +133,11 @@ h2 {
     padding-bottom: 20px;
 }
 
+.rdesc {
+    /* use with .desc */
+    grid-column: span 12;
+}
+
 .ctitle {
     grid-column: span 12;
     vertical-align: top;
@@ -140,7 +145,7 @@ h2 {
     margin-top: 5px;
     padding-left: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .cdesc {
